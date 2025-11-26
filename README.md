@@ -26,7 +26,7 @@ visualizá-las no **Grafana**, utilizando Docker e Docker Compose.
 -   **Prometheus**
 -   **Grafana**
 -   **Docker & Docker Compose**
--   **WSL2 (opcional, mas suportado)**
+-   **WSL2**
 
 ------------------------------------------------------------------------
 
@@ -62,7 +62,7 @@ Arquivo `prometheus.yml` define o scrape do app a cada 5s:
 
 Exposto na porta `3000`, com login padrão:
 
--   **user:** admin\
+-   **user:** admin
 -   **pass:** admin
 
 Após subir, adicione o Prometheus como *Data Source*.
